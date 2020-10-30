@@ -1,0 +1,178 @@
+body{
+  font-family:-apple-system;
+}
+#header{
+    background-color:rgb(15%, 15%, 15%);
+height: 3em;
+}
+#logo{
+    margin-top: 0.5em;
+    width: 2em;
+    height: 2em;
+}
+#search-box{
+    position: relative;
+    bottom:1em;
+    width:20em ;
+    height: 2em;
+    outline:none;
+    border-radius:1em;
+}
+/* drop menu */
+#menu ul {
+    background: rgb(15%, 15%, 15%);
+    list-style-type: none;
+    text-align: center;
+  }
+  #menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 40px;
+  }
+  #menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+  #menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+  }
+  #menu li {
+    position: relative;
+  }
+  #menu li:hover .sub-menu {
+    display: block;
+  }
+#content{
+
+}
+#list-video{
+    display:inline-block;
+    background-color: white;
+    width: 30%;
+    height: auto;
+}
+#main-video{
+    float:right;
+    display: inline-block;
+    background-color:white;
+    width:68%;
+    height: auto;
+}
+.item-video{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1em;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    position: relative;
+    background-color:rgb(241, 233, 233);
+    left:1em;
+    width: 90%;
+    height:max-content;
+}
+.thumbnail{
+  border: 1px solid #CDCDCD;
+   top:1em;
+    left:1em;
+    position: relative;
+    width:90% ;
+    height:40%;
+}
+.thumbnail:hover{
+  border: 1px solid #CDCDCD;
+    position: relative;
+    width:105% ;
+    height:50%;
+    top:-0.5em;
+    left: -0.6em;
+}
+.sub-video{
+  height:  3em;
+  font-size: 1.5em;
+  text-align: center; 
+  position: relative;
+  top:1em;
+}
+#iframe{
+  margin-left: 5%;
+  margin-top:2%;
+  width: 90%;
+  height: 30em;
+}
+#sub-main-video{
+  height: 2em;
+  font-size:1.5em;
+  text-align: center;
+}
+#footer{
+  margin-top: 1em;
+  background-color: blue;
+  clear: both;
+  height:20em ;
+}
+/* reponsive mobile device like iphone 6 7 8 */
+@media(max-width:1024px){
+  .sub-video{
+    height:  3em;
+    font-size: 0.75em;
+    text-align: center; 
+    position: relative;
+    top:1em;
+    margin-bottom:1em;
+  }
+  #iframe{
+    margin-left: 5%;
+    margin-top:2%;
+    width: 90%;
+    height: 20em;
+  }
+}
+@media(max-width:812px){
+  #list-video{
+    display: block;
+    background-color: white;
+    width: 30%;
+    height: auto;
+}
+#list-video{
+  display:inline;
+  background-color: white;
+  width: 30%;
+  height: auto;
+}
+#main-video{
+  display: block;
+  background-color:white;
+  width:100%;
+  height: auto;
+}
+#sub-main-video{
+  margin-bottom:1em;
+  height: 2em;
+  font-size:1.5em;
+  text-align: center;
+}
+#iframe{
+  margin-left: 5%;
+  margin-top:2%;
+  width: 90%;
+  height: 15em;
+}
+#header{
+  background-color:rgb(15%, 15%, 15%);
+height: 5em;
+}
+#search-box{
+  top:1px;
+  position: relative;
+  bottom:1em;
+  width:20em ;
+  height: 2em;
+  outline:none;
+  border-radius:1em;
+}
+}

@@ -1,0 +1,151 @@
+body{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu{
+    height: 3em;
+    background-color: black;
+}
+#menu ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  #menu li {
+      float: left;
+      top:1em;
+      position: relative;
+    color: white;
+    display: inline-block;
+    margin-left: 1em;;
+  }
+  #user-login{
+      display: inline;
+  }
+  #login{
+      position: relative; 
+      right:6em;
+      top:0.9em;
+    color:white;
+    float: right;
+}
+  #icon{
+      top: 1em;
+        position: relative;
+        margin-right: 100px;
+        float:right;
+        width: 1%;
+  }
+  #content:{
+        overflow: auto;
+    
+  }
+  #left-content{
+      display: inline-block;
+      float: left;
+      height: 50em;
+      width: 30%;
+      background-color:rgb(231, 230, 230);
+  }
+  #center-content{
+    display: inline-block;
+      height: 10em;
+      width: 40%;
+      background-color: white;
+
+  }
+  #right-content{
+      float: right;
+      height: 50em;
+      width: 30%;
+      background-color:rgb(231, 230, 230);
+  }
+  a{
+      margin-top:2em;
+        margin-left: 10em;
+      text-decoration: none;
+      display: block;
+  }
+  span,h1{
+      margin-left: 2em;
+  }
+  p{
+      font-size: 2em;
+      color:white}
+  .ads{
+        height: 10em;
+        border: 2px solid #ccc;
+        margin-left:25%;
+      text-align:center;
+      width: 50%;
+      margin-top:5em;
+      background-color:white;
+  }
+#footer {
+    text-align: center;
+    height: 3em;
+    clear: both;
+    display:block;
+    background-color:black;
+}
+
+
+
+/* for mobile device like iPhone 6,7,8 */
+@media (max-width: 480px){
+    #user-login{
+        display: block;
+    }
+    #icon{
+        right: -5em;
+        top: 2em;
+          position: relative;
+          margin-right: 100px;
+          float:right;
+          width: 1em;
+    }
+    #login{
+        right: 1em;
+        position: relative; 
+        top:2em;
+      color:white;
+  }
+  #menu{
+    height: 6em;
+    background-color: black;
+}
+#menu li {
+    float: left;
+    top:1em;
+    position: relative;
+  color: white;
+  display: inline-block;
+  margin-left: 0.5em;
+}
+a{
+    margin-top:1em;
+      margin-left: 1em;
+    text-decoration: none;
+    display: block;
+}
+span,h1{
+    font-size: 1em;
+    margin-left: 0.5em;
+}
+.ads{
+    height: 5em;
+    border: 2px solid #ccc;
+    margin-left:25%;
+  text-align:center;
+  width: 50%;
+  margin-top:1em;
+  background-color:white;
+}
+}
+@media (max-width:600px){
+    a{
+        margin-top:1em;
+          margin-left: 4em;
+        text-decoration: none;
+        display: block;
+    }  
+}
