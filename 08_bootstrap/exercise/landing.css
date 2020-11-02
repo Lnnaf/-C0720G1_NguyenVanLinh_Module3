@@ -1,0 +1,117 @@
+.img-icon{
+    width:60%;
+    margin-left: 85%;
+}
+.container{
+    margin-top:2em;
+}
+.sub-name{
+    font-size:3rem;
+    position: absolute;
+    bottom: 13%;
+    left: 10%;
+}
+.sub-detail{
+    font-size:1.5rem;
+    position: absolute;
+    bottom: 7.5%;
+    left: 10%;
+}
+.sub-link{
+    color: rgb(20, 64, 185);
+    font-size:1.5rem;
+    position: absolute;
+    bottom: 2%;
+    left: 10%;
+}
+@media (min-width: 1310px) {
+    .sub-name{
+        font-size:2.5rem;
+        position: absolute;
+        bottom: 20%;
+        left: 10%;
+    }
+}
+@media (max-width:1307px){
+    .sub-name{
+        font-size:2rem;
+        position: absolute;
+        bottom: 20%;
+        left: 10%;
+    }
+}
+@media (max-width:985px){
+    .sub-name{
+        font-size:1.7rem;
+        position: absolute;
+        bottom: 22%;
+        left: 10%;
+    }
+    .sub-detail{
+        font-size:1.3rem;
+        position: absolute;
+        bottom: 7.5%;
+        left: 10%;
+    }
+    .sub-link{
+        color: rgb(20, 64, 185);
+        font-size:1.3rem;
+        position: absolute;
+        bottom: 2%;
+        left: 10%;
+    }
+}
+@media (max-width:766px){
+    .img-icon{
+        width:30%;
+        margin-left: 35%;
+    }
+}
+@media (max-width:575px){
+    .img-icon{
+        width:14%;
+        margin-left: 45%;
+    }
+}
+@media (max-width:335px){
+    .sub-name{
+        font-size:1.5rem;
+        position: absolute;
+        bottom: 20%;
+        left: 10%;
+    }
+    .sub-detail{
+        font-size:1rem;
+        position: absolute;
+        bottom: 7.5%;
+        left: 10%;
+    }
+    .sub-link{
+        color: rgb(20, 64, 185);
+        font-size:0.8rem;
+        position: absolute;
+        bottom: 2%;
+        left: 10%;
+    }
+}
+@media (max-width:255px){
+    .sub-name{
+        font-size:1rem;
+        position: absolute;
+        bottom: 25%;
+        left: 10%;
+    }
+    .sub-detail{
+        font-size:1rem;
+        position: absolute;
+        bottom: 7.5%;
+        left: 10%;
+    }
+    .sub-link{
+        color: rgb(20, 64, 185);
+        font-size:0.8rem;
+        position: absolute;
+        bottom: 2%;
+        left: 10%;
+    }
+}
