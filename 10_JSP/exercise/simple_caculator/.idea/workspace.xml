@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7c3b38c-adf1-4006-9dd3-31bb0fdf57c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Practice/transfer-currency/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/transfer-currency/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/transfer-currency/.idea/artifacts/currency_converter_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/transfer-currency/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/transfer-currency/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/transfer-currency/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/transfer-currency/currency-converter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/transfer-currency/out/artifacts/currency_converter_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/transfer-currency/out/artifacts/currency_converter_war_exploded/converter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/transfer-currency/out/artifacts/currency_converter_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/transfer-currency/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/transfer-currency/web/converter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/transfer-currency/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/vietnamese_dictionary/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/vietnamese_dictionary/.idea/artifacts/vietnamese_dictionary_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/vietnamese_dictionary/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/vietnamese_dictionary/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/vietnamese_dictionary/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/vietnamese_dictionary/out/artifacts/vietnamese_dictionary_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/vietnamese_dictionary/out/artifacts/vietnamese_dictionary_war_exploded/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/vietnamese_dictionary/out/artifacts/vietnamese_dictionary_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/vietnamese_dictionary/vietnamese_dictionary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/vietnamese_dictionary/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/vietnamese_dictionary/web/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/vietnamese_dictionary/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/.idea/artifacts/list_customers_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/list_customers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/out/artifacts/list_customers_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/out/artifacts/list_customers_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/out/artifacts/list_customers_war_exploded/customer.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/out/artifacts/list_customers_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/web/customer.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list_customers/web/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Study\-C0720G1_NguyenVanLinh_Module3\10_JSP\exercise\simple_caculator\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jm1QWbevbClSnU5RIwsM0TVNz5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="simple_caculator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="simple_caculator" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7c3b38c-adf1-4006-9dd3-31bb0fdf57c4" name="Default Changelist" comment="" />
+      <created>1604394437617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604394437617</updated>
+      <workItem from="1604394443464" duration="295000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1604394730616">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604394730616" />
+    <state x="209" y="0" key="new project wizard" timestamp="1604394739202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1604394739202" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604394556505">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604394556505" />
+  </component>
+</project>
