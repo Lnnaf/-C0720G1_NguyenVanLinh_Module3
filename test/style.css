@@ -1,0 +1,20 @@
+.container{
+    margin-top: 10%;
+}
+.form-group{
+    border-radius: 10px;
+    border: 2px solid #CDCDCD;
+}
+.input-group{
+    margin-top: 3%;
+}
+#name-form{
+    font-size: 20px;
+    text-align: center;
+    font-weight:bold;
+    color: rgba(44, 88, 233, 0.925);
+}
+.btn{
+    margin-left:35%;
+    margin-bottom: 2%;
+}
