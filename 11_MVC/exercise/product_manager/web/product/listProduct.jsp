@@ -28,12 +28,12 @@
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <a class="nav-link active" href="/products?action=show">
-                            Dashboard <span class="sr-only">(current)</span>
+                            <i class="fas fa-list"></i>&nbsp;  Dashboard<span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/products?action=create">
-                            Add Product
+                            <i class="fas fa-plus-circle"></i></i>&nbsp; Add Product
                         </a>
                     </li>
                     <form method="post"action="/products?action=find">
@@ -65,9 +65,9 @@
                     <td>${product.getDate()}</td>
                     <td>${product.getOrigin()}</td>
                     <td>${product.getCompany()}</td>
-                    <td><a href="/products?action=edit&id=${product.getId()}">Edit</a></td>
-                    <td><a href="/products?action=delete&id=${product.getId()}">Delete</a></td>
-                    <td><a href="/products?action=detail&id=${product.getId()}">Detail</a></td>
+                    <td><a href="/products?action=edit&id=${product.getId()}"><i class="far fa-edit"></i>&nbsp;Edit</a></td>
+                    <td><a href="/products?action=delete&id=${product.getId()}"><i class="far fa-trash-alt"></i>&nbsp;Delete</a></td>
+                    <td><a href="/products?action=detail&id=${product.getId()}"><i class="fas fa-info"></i>&nbsp;Detail</a></td>
                 </tr>
                 </c:forEach>
                 </tbody>
@@ -77,6 +77,7 @@
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://kit.fontawesome.com/9a2483646c.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
