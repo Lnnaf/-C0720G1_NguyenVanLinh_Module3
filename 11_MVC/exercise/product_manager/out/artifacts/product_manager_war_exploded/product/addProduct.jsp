@@ -1,9 +1,16 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: phand
+  Date: 04/11/2020
+  Time: 22:50
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html lang="en">
 <head>
-    <title>List</title>
+    <title>Add Form</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,40 +32,41 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/products?action=create">
+                        <a class="nav-link active" href="/products?action=create">
                             Add Product
                         </a>
                     </li>
-
-                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                    <form method="post"action="/products?action=find">
+                        <input name="id" class="form-control" type="text" placeholder="Enter ID Product" aria-label="Search">
+                        <button type="submit" class="btn btn-primary">Seacrh</button>
+                    </form>
                 </ul>
             </div>
         </div>
         <div class="col-md-10 center">
-            <table class="table table-hover">
-                <thead>
-                <tr>
-                    <th scope="col">ID</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Product Code</th>
-                    <th scope="col">MFG Date</th>
-                    <th scope="col">Origin Country</th>
-                    <th scope="col">Company</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <c:forEach items='${requestScope["productsList"]}' var="product">
-                    <th scope="row">${product.getId()}</th>
-                    <td>${product.getName()}</td>
-                    <td>${product.getCode()}</td>
-                    <td>${product.getDate()}</td>
-                    <td>${product.getOrigin()}</td>
-                    <td>${product.getCompany()}</td>
-                </tr>
-                </c:forEach>
-                </tbody>
-            </table>
+            <form action="products?action=create" method="post">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name Product">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Product Code</label>
+                    <input name="code" type="text" class="form-control" id="exampleInputPassword1" placeholder="Product Code">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">MFG Date</label>
+                    <input name="date" type="text" class="form-control" id="exampleInputPassword1" placeholder="MFG Date">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Origin Country</label>
+                    <input name="origin" type="text" class="form-control" id="exampleInputPassword1" placeholder="Origin Country">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Company</label>
+                    <input name="company" type="text" class="form-control" id="exampleInputPassword1" placeholder="Company">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
     </div>
 </div>
@@ -75,3 +83,4 @@
         crossorigin="anonymous"></script>
 </body>
 </html>
+

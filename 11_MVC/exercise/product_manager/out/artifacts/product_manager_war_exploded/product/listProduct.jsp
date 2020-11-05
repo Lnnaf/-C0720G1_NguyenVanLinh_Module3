@@ -1,3 +1,10 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: phand
+  Date: 04/11/2020
+  Time: 21:59
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
@@ -20,7 +27,7 @@
             <div class="sidebar-sticky">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link " href="/products?action=show">
+                        <a class="nav-link active" href="/products?action=show">
                             Dashboard <span class="sr-only">(current)</span>
                         </a>
                     </li>
@@ -29,8 +36,11 @@
                             Add Product
                         </a>
                     </li>
+                    <form method="post"action="/products?action=find">
+                        <input name="id" class="form-control" type="text" placeholder="Enter ID Product" aria-label="Search">
+                        <button type="submit" class="btn btn-primary">Seacrh</button>
+                    </form>
 
-                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
                 </ul>
             </div>
         </div>
@@ -55,6 +65,9 @@
                     <td>${product.getDate()}</td>
                     <td>${product.getOrigin()}</td>
                     <td>${product.getCompany()}</td>
+                    <td><a href="/products?action=edit&id=${product.getId()}">Edit</a></td>
+                    <td><a href="/products?action=delete&id=${product.getId()}">Delete</a></td>
+                    <td><a href="/products?action=detail&id=${product.getId()}">Detail</a></td>
                 </tr>
                 </c:forEach>
                 </tbody>
