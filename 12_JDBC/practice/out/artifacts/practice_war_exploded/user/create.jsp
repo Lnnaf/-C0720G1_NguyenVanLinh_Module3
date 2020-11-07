@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../user/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -27,45 +27,41 @@
             <div class="sidebar-sticky">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link " href="/products?action=show">
+                        <a class="nav-link " href="/user?action=show">
                             <i class="fas fa-list"></i>&nbsp; Dashboard  <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/products?action=create">
+                        <a class="nav-link active" href="/user?action=create">
                             <i class="fas fa-plus-circle"></i></i>&nbsp;  Add Product
                         </a>
                     </li>
-                    <form method="post"action="/products?action=find">
-                        <input name="id" class="form-control" type="text" placeholder="Enter ID Product" aria-label="Search">
+                    <form method="post"action="/user?action=find">
+                        <input name="name" class="form-control" type="text" placeholder="Enter name user" aria-label="Search">
+                        <button type="submit" class="btn btn-primary">Seacrh</button>
+                    </form>
+                    <form method="post"action="/user?action=findByCountry">
+                        <input name="country" class="form-control" type="text" placeholder="Enter Country" aria-label="Search">
                         <button type="submit" class="btn btn-primary">Seacrh</button>
                     </form>
                 </ul>
             </div>
         </div>
         <div class="col-md-10 center">
-            <form action="products?action=create" method="post">
+            <form action="user?action=create" method="post">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Name</label>
                     <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name Product">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Product Code</label>
-                    <input name="code" type="text" class="form-control" id="exampleInputPassword1" placeholder="Product Code">
+                    <label for="exampleInputPassword1">Email</label>
+                    <input name="email" type="text" class="form-control" id="exampleInputPassword1" placeholder="Product Code">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">MFG Date</label>
-                    <input name="date" type="text" class="form-control" id="exampleInputPassword1" placeholder="MFG Date">
+                    <label for="exampleInputPassword1">Country</label>
+                    <input name="country" type="text" class="form-control" id="exampleInputPassword1" placeholder="MFG Date">
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Origin Country</label>
-                    <input name="origin" type="text" class="form-control" id="exampleInputPassword1" placeholder="Origin Country">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Company</label>
-                    <input name="company" type="text" class="form-control" id="exampleInputPassword1" placeholder="Company">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Create</button>
             </form>
         </div>
     </div>
@@ -84,4 +80,3 @@
         crossorigin="anonymous"></script>
 </body>
 </html>
-

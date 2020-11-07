@@ -1,6 +1,9 @@
 <%--
   Created by IntelliJ IDEA.
   User: phand
+<%--
+  Created by IntelliJ IDEA.
+  User: phand
   Date: 04/11/2020
   Time: 22:50
   To change this template use File | Settings | File Templates.
@@ -10,13 +13,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Add Form</title>
+    <title>Edit</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../user/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -27,45 +30,53 @@
             <div class="sidebar-sticky">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link " href="/products?action=show">
-                            <i class="fas fa-list"></i>&nbsp; Dashboard  <span class="sr-only">(current)</span>
+                        <a class="nav-link " href="/user?action=show">
+                            <i class="fas fa-list"></i>&nbsp;  Dashboard<span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/products?action=create">
-                            <i class="fas fa-plus-circle"></i></i>&nbsp;  Add Product
+                        <a class="nav-link " href="/user?action=create">
+                            <i class="fas fa-plus-circle"></i></i> &nbsp;Add Product
                         </a>
                     </li>
-                    <form method="post"action="/products?action=find">
-                        <input name="id" class="form-control" type="text" placeholder="Enter ID Product" aria-label="Search">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="">
+                            <i class="far fa-edit"></i> &nbsp; Edit Product
+                        </a>
+                    </li>
+                    <form method="post"action="/user?action=find">
+                        <input name="name" class="form-control" type="text" placeholder="Enter name user" aria-label="Search">
+                        <button type="submit" class="btn btn-primary">Seacrh</button>
+                    </form>
+                    <form method="post"action="/user?action=findByCountry">
+                        <input name="country" class="form-control" type="text" placeholder="Enter Country" aria-label="Search">
                         <button type="submit" class="btn btn-primary">Seacrh</button>
                     </form>
                 </ul>
             </div>
         </div>
         <div class="col-md-10 center">
-            <form action="products?action=create" method="post">
+            <form method="post" action="/user?action=edit" >
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Name</label>
-                    <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name Product">
+                    <input name="id" type="hidden" class="form-control"  aria-describedby="emailHelp" value="${user.getId()}">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Product Code</label>
-                    <input name="code" type="text" class="form-control" id="exampleInputPassword1" placeholder="Product Code">
+                    <label for="id">ID</label>
+                    <input type="text" class="form-control" id="id" aria-describedby="emailHelp" value="${user.getId()}" disabled>
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">MFG Date</label>
-                    <input name="date" type="text" class="form-control" id="exampleInputPassword1" placeholder="MFG Date">
+                    <label for="name">Name</label>
+                    <input name="name" type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter Name">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Origin Country</label>
-                    <input name="origin" type="text" class="form-control" id="exampleInputPassword1" placeholder="Origin Country">
+                    <label for="email">Email</label>
+                    <input name="email" type="Email" class="form-control" id="email" placeholder="Email">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Company</label>
-                    <input name="company" type="text" class="form-control" id="exampleInputPassword1" placeholder="Company">
+                    <label for="country">Country</label>
+                    <input name="country" type="text" class="form-control" id="country" placeholder="Country">
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Save</button>
             </form>
         </div>
     </div>
@@ -84,4 +95,3 @@
         crossorigin="anonymous"></script>
 </body>
 </html>
-
