@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/11_MVC/Practice/customer_manager/lib/javax.jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/11_MVC/Practice/customer_manager/lib/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/11_MVC/Practice/customer_manager/lib/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/11_MVC/Practice/customer_manager/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/11_MVC/Practice/customer_manager/lib/javax.transaction.jar!/" />
+      <root url="jar://$PROJECT_DIR$/11_MVC/Practice/customer_manager/lib/javax.ejb.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

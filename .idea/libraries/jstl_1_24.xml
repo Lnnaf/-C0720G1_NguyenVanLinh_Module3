@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jstl-1.24">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/10_JSP/exercise/list_customers/out/artifacts/list_customers_war_exploded/WEB-INF/lib/jstl-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
