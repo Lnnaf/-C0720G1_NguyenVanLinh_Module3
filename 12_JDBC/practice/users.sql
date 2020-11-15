@@ -90,11 +90,11 @@ DELIMITER ;
 -- delete user
 DELIMITER $$
 
-CREATE PROCEDURE delete_user(idUpd int)
+CREATE PROCEDURE delete_user(idDel int)
 
 BEGIN
 
-    delete from users where id = idUpd;
+    delete from users where id = idDel;
 
     END$$
 

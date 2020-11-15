@@ -1,0 +1,11 @@
+#logo{
+    width: 2px;
+    height: 2px;
+}
+header{
+    background-color: red;
+}
+#btn-log{
+    position: relative;
+    top:4px;
+}
